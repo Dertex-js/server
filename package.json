@@ -1,0 +1,7 @@
+{
+  "name": "server",
+  "packageManager": "yarn@3.3.0",
+  "dependencies": {
+    "sockjs": "^0.3.24"
+  }
+}

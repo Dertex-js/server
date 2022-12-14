@@ -1,7 +1,13 @@
 {
   "name": "server",
   "packageManager": "yarn@3.3.0",
+  "scripts": {
+    "dev" : "nodemon --watch './**/*.mgs' --exec node ./index.mjs"
+  },
   "dependencies": {
     "sockjs": "^0.3.24"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
